@@ -36,7 +36,7 @@ int main()
 	{
 		int tmp = dfs.top();
 		dfs.pop();
-		if(memo1[tmp] == 0) cout << tmp << " ";
+		if (memo1[tmp] == 0) cout << tmp << " ";
 		memo1[tmp] = 1;
 
 		for (int i = N; i > 0; i--)
